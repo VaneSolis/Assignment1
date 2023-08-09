@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+
+}
+#title {
+    text-align: center;
+}
+.box1 {
+    background-color: aliceblue;
+    width: 420px;
+    padding-top: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    border: 1px black solid;
+    float:left;
+    position:relative;
+}
+.box1 p {
+    margin-top: 35px;
+}
+#modelx {
+    background-color: greenyellow;
+    border: 1px black solid;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.box2 {
+    background-color: aliceblue;
+    width: 420px;
+    padding-top: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: 1px black solid;
+    float:left;
+    position:relative;
+}
+.box2 p {
+    margin-top: 35px;
+}
+#modelz {
+    background-color: greenyellow;
+    border: 1px black solid;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+.box3 {
+    background-color: aliceblue;
+    width: 420px;
+    padding-top: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: 1px black solid;
+    float:left;
+    position:relative;
+}
+.box3 p {
+    margin-top: 35px;
+}
+#modely {
+    background-color: greenyellow;
+    border: 1px black solid;
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .box1 {
+        background-color: aliceblue;
+        width: 390px;
+        padding-top: 30px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 9px;
+        border: 1px black solid;
+        float:left;
+        position:relative;
+    }
+   
+    .box2 {
+        background-color: aliceblue;
+        width: 390px;
+        padding-top: 30px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 9px;
+        border: 1px black solid;
+        float:left;
+        position:relative;
+    }
+    .box3 {
+        background-color: aliceblue;
+        width: fit-content;
+        padding-top: 30px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-right: 9px;
+        border: 1px black solid;
+        float:left;
+        position:relative;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .box1 {
+        width: fit-content;
+        margin-left: 8px;
+        margin-right: 8px;
+        border: 1px black solid;
+        float:left;
+        position:relative;
+    }
+   
+    .box2 {
+        background-color: aliceblue;
+        width: fit-content;
+        margin-left: 8px;
+        margin-right: 8px;
+        border: 1px black solid;
+        float:left;
+        position:relative;
+    }
+    .box3 {
+        background-color: aliceblue;
+        width: fit-content;
+        margin-left: 8px;
+        margin-right: 8px;
+        border: 1px black solid;
+        float:left;
+        position:relative;
+    }
+}
